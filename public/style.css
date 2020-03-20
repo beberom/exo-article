@@ -1,0 +1,60 @@
+header h1{
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    width: 150px;
+    margin-right: 100px;
+}
+
+header ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 30px;
+    margin-right: 150px;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul,footer div ul{
+    display: flex;
+    align-items: center;
+}
+
+main div{
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+footer nav{
+    justify-content: center;
+    margin-top: 100px;
+}
+
+footer ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 30px;
+    margin-right: 100px;
+
+}
+
+article h1, p, img{
+
+    display: flex;
+    justify-content: center;
+}
+
+main img{
+    width: 30%;
+    margin: 0 auto;
+}
