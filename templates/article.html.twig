@@ -2,11 +2,11 @@
 
     {% block content %}
         <main>
-            {% if articles.published %}
+            {% if article.published %}
                 <article>
-                    <img src="{{ articles.image }}">
-                    <h1>{{ articles.title }}</h1>
-                    <p>{{ articles.content }}</p>
+                    <img src="{{ article.image }}">
+                    <h1>{{ article.title }}</h1>
+                    <p>{{ article.content }}</p>
                 </article>
             {% else %}
                 <p>L'article demandé n'est pas en ligne</p>

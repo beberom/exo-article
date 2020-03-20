@@ -3,11 +3,11 @@
 
     {% block content %}
         <main>
-            {% for articles in article %}
+            {% for article in articles %}
                 <div>
-                    <h1>{{ articles.title }}</h1>
-                    <p>{{ articles.content }}</p>
-                    <img src="{{ articles.image }}">
+                    <h1>{{ article.title }}</h1>
+                    <p>{{ article.content }}</p>
+                    <img src="{{ article.image }}">
                 </div>
             {% endfor %}
         </main>
